@@ -2,11 +2,6 @@ import allure
 import pytest
 
 from pages.travel_assistant_page import TravelAssistantPage
-from .marks import layer
-
-pytestmark = [
-    layer("UI tests")
-]
 
 
 @allure.epic("Travel Assistant UI")
