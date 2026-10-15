@@ -4,12 +4,9 @@ import pytest
 from pages.travel_assistant_page import TravelAssistantPage
 
 
-@allure.parent_suite("UI tests")
-@allure.suite("Travel Assistant")
-@allure.sub_suite("Chat actions")
-@allure.epic("Travel Assistant UI")
-@allure.feature("Chat actions")
-@allure.tag("ui")
+@allure.epic("Travel Assistant")
+@allure.feature("UI tests")
+@allure.story("Chat actions")
 class TestChatActions:
 
     @allure.story("Send text message")
